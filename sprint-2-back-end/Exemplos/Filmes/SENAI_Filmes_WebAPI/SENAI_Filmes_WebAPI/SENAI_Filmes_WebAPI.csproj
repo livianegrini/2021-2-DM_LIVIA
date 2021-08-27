@@ -1,0 +1,16 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net5.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Include="C:\Users\livia\OneDrive\Documents\Lívia\Lívia Escola\SENAI\sprint-2-back-end\Exemplos\Filmes\SENAI_Filmes_WebAPI\SENAI_Filmes_WebAPI.1.sln" Link="SENAI_Filmes_WebAPI.1.sln" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="Controllers\" />
+    <Folder Include="Repositories\" />
+  </ItemGroup>
+
+</Project>

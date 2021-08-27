@@ -1,0 +1,65 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\livia\\OneDrive\\Documents\\Lívia\\Lívia Escola\\SENAI\\sprint-2-back-end\\Exemplos\\Filmes\\SENAI_Filmes_WebAPI\\SENAI_Filmes_WebAPI\\SENAI_Filmes_WebAPI.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\livia\\OneDrive\\Documents\\Lívia\\Lívia Escola\\SENAI\\sprint-2-back-end\\Exemplos\\Filmes\\SENAI_Filmes_WebAPI\\SENAI_Filmes_WebAPI\\SENAI_Filmes_WebAPI.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\livia\\OneDrive\\Documents\\Lívia\\Lívia Escola\\SENAI\\sprint-2-back-end\\Exemplos\\Filmes\\SENAI_Filmes_WebAPI\\SENAI_Filmes_WebAPI\\SENAI_Filmes_WebAPI.csproj",
+        "projectName": "SENAI_Filmes_WebAPI",
+        "projectPath": "C:\\Users\\livia\\OneDrive\\Documents\\Lívia\\Lívia Escola\\SENAI\\sprint-2-back-end\\Exemplos\\Filmes\\SENAI_Filmes_WebAPI\\SENAI_Filmes_WebAPI\\SENAI_Filmes_WebAPI.csproj",
+        "packagesPath": "C:\\Users\\livia\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\livia\\OneDrive\\Documents\\Lívia\\Lívia Escola\\SENAI\\sprint-2-back-end\\Exemplos\\Filmes\\SENAI_Filmes_WebAPI\\SENAI_Filmes_WebAPI\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\livia\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.400\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

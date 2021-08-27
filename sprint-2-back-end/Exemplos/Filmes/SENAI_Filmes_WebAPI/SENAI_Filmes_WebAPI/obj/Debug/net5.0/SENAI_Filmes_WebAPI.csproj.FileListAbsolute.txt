@@ -1,0 +1,6 @@
+C:\Users\livia\OneDrive\Documents\Lívia\Lívia Escola\SENAI\sprint-2-back-end\Exemplos\Filmes\SENAI_Filmes_WebAPI\SENAI_Filmes_WebAPI\obj\Debug\net5.0\SENAI_Filmes_WebAPI.csproj.AssemblyReference.cache
+C:\Users\livia\OneDrive\Documents\Lívia\Lívia Escola\SENAI\sprint-2-back-end\Exemplos\Filmes\SENAI_Filmes_WebAPI\SENAI_Filmes_WebAPI\obj\Debug\net5.0\SENAI_Filmes_WebAPI.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\livia\OneDrive\Documents\Lívia\Lívia Escola\SENAI\sprint-2-back-end\Exemplos\Filmes\SENAI_Filmes_WebAPI\SENAI_Filmes_WebAPI\obj\Debug\net5.0\SENAI_Filmes_WebAPI.AssemblyInfoInputs.cache
+C:\Users\livia\OneDrive\Documents\Lívia\Lívia Escola\SENAI\sprint-2-back-end\Exemplos\Filmes\SENAI_Filmes_WebAPI\SENAI_Filmes_WebAPI\obj\Debug\net5.0\SENAI_Filmes_WebAPI.AssemblyInfo.cs
+C:\Users\livia\OneDrive\Documents\Lívia\Lívia Escola\SENAI\sprint-2-back-end\Exemplos\Filmes\SENAI_Filmes_WebAPI\SENAI_Filmes_WebAPI\obj\Debug\net5.0\SENAI_Filmes_WebAPI.csproj.CoreCompileInputs.cache
+C:\Users\livia\OneDrive\Documents\Lívia\Lívia Escola\SENAI\sprint-2-back-end\Exemplos\Filmes\SENAI_Filmes_WebAPI\SENAI_Filmes_WebAPI\obj\Debug\net5.0\SENAI_Filmes_WebAPI.MvcApplicationPartsAssemblyInfo.cache
