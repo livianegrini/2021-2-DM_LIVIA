@@ -28,33 +28,33 @@ namespace SENAI_Filmes_WebAPI.Interfaces
         /// </summary>
         /// <param name="idGenero">Id do gênero que será buscado</param>
         /// <returns></returns>
-        GeneroDomain BuscarPorId(int IdGenero);
+        GeneroDomain BuscarPorId(int idGenero);
 
         /// <summary>
         /// Cadastra um novo gênero
         /// </summary>
-        /// <param name="NovoGenero">Objeto NovoGenero com os novos dados</param>
-        void Cadastrar(GeneroDomain NovoGenero);
+        /// <param name="novoGenero">Objeto NovoGenero com os novos dados</param>
+        void Cadastrar(GeneroDomain novoGenero);
 
         /// <summary>
         /// Atualiza um gênero existente
         /// </summary>
-        /// <param name="GeneroAtualizado">Objeto GeneroAtualizado com novos dados atualizados</param>
-        void AtualizarIdCorpo(GeneroDomain GeneroAtualizado);
+        /// <param name="generoAtualizado">Objeto GeneroAtualizado com novos dados atualizados</param>
+        void AtualizarIdCorpo(GeneroDomain generoAtualizado);
 
 
         /// <summary>
         /// Atualiza gênero existente
         /// </summary>
-        /// <param name="IdGenero">IdGenero que será atualizado</param>
-        /// <param name="GeneroAtualizado">Objeto GeneroAtualizado com novos dados atualizados</param>
-        void AtualizarIdUrl(int IdGenero, GeneroDomain GeneroAtualizado);
+        /// <param name="idGenero">IdGenero que será atualizado</param>
+        /// <param name="generoAtualizado">Objeto GeneroAtualizado com novos dados atualizados</param>
+        void AtualizarIdUrl(int idGenero, GeneroDomain generoAtualizado);
 
 
         /// <summary>
         /// Deleta um gênero existente
         /// </summary>
-        /// <param name="IdGenero">Id do gênero que será deletado</param>
-        void Deletar(int IdGenero);                                                          
+        /// <param name="idGenero">Id do gênero que será deletado</param>
+        void Deletar(int idGenero);                                                          
     }  
 }    

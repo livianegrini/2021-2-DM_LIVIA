@@ -24,27 +24,27 @@ namespace SENAI_Filmes_WebAPI.Interfaces
         /// <summary>
         /// Cadastra um novo filme
         /// </summary>
-        /// <param name="IdFilme">Id do filme que será buscado</param>
+        /// <param name="idFilme">Id do filme que será buscado</param>
         /// <returns></returns>
-        FilmeDomain BuscarPeloId(int IdFilme);
+        FilmeDomain BuscarPeloId(int idFilme);
 
         /// <summary>
         /// Cadastra um novo filme
         /// </summary>
-        /// <param name="NovoFilme">Objeto NovoFilme com os novos dados</param>
-        void Cadastrar(FilmeDomain NovoFilme);
+        /// <param name="novoFilme">Objeto NovoFilme com os novos dados</param>
+        void Cadastrar(FilmeDomain novoFilme);
 
 
         /// <summary>
         /// Atualiza um filme existente
         /// </summary>
-        /// <param name="GeneroAtualizado">Objeto FilmeAtualizado com novos dados atualizados</param>
-        void AtualizarIdFilme(FilmeDomain FilmeAtualizado);
+        /// <param name="filmeAtualizado">Objeto FilmeAtualizado com novos dados atualizados</param>
+        void AtualizarIdFilme(FilmeDomain filmeAtualizado);
 
         /// <summary>
         /// Deleta um filme existente
         /// </summary>
-        /// <param name="IdFilme">Id do filme que será deletado</param>
-        void Deletar(int IdFilme);
+        /// <param name="idFilme">Id do filme que será deletado</param>
+        void Deletar(int idFilme);
     }
 }

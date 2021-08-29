@@ -10,8 +10,8 @@ namespace SENAI_Filmes_WebAPI.Domains
     /// </summary>
     public class GeneroDomain
     {
-        public int IdGenero { get; set; }
+        public int idGenero { get; set; }
 
-        public string NomeGenero { get; set; }
+        public string nomeGenero { get; set; }
     }
 }
