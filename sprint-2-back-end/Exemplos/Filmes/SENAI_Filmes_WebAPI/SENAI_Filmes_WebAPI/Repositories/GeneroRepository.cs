@@ -47,6 +47,10 @@ namespace SENAI_Filmes_WebAPI.Repositories
             throw new NotImplementedException();
         }
 
+        /// <summary>
+        /// Lista todos os gêneros
+        /// </summary>
+        /// <returns>lista de gêneros</returns>
         public List<GeneroDomain> ListarTodos()
         {
             List<GeneroDomain> listaGeneros = new List<GeneroDomain>();
@@ -79,9 +83,22 @@ namespace SENAI_Filmes_WebAPI.Repositories
                     while (rdr.Read())
                     {
 
+                        //instancia um objeto genero do tipo GeneroDomain
+                        GeneroDomain genero = new GeneroDomain()
+                        {
+                            //atribui a propriedade idGenero o valor da primeira coluna do banco de dados.
+                            idGenero = Convert.ToInt32(rdr[0]),
+                            //atribui a propriedade nomeGenero o valor da segunda coluna da tabela do banco de dados.
+                            nomeGenero = rdr[1].ToString()
+                        };
+
+                        //adiciona o objeto genero criado a lista listaGeneros
+                        listaGeneros.Add(genero);
                     }
                 }
             };
+
+            return listaGeneros;
 
         }
     }
