@@ -45,12 +45,26 @@ namespace SENAI_Filmes_WebAPI.Repositories
         {
             using (SqlConnection con = new SqlConnection(stringConexao))
             {
-                string queryInsert = "INSERT INTO GENERO (nomeGenero) VALUES('" + novoGenero.nomeGenero + "')";
+                // "INSERT INTO GENERO (nomeGenero) VALUES ('Joana D'Arc')"
+                // "INSERT INTO Generos (Nome) VALUES ('" + ')DROP TABLE Filmes-- + "')"
+                // string queryInsert = "INSERT INTO GENERO (nomeGenero) VALUES ('" + novoGenero.nomeGenero + "')";
+
+                // Não usar dessa forma, pois pode causar o efeito Joana D'Arc
+                // Além de permitir SQL Injection 
+                // Por exemplo
+                // "nomeGenero" : "')DROP TABLE FILME--";
+
+                // Ao tentar cadastrar um gênero com o comando acima, irá deletar a tabela FILME do banco de dados
+                // https://www.devmedia.com.br/sql-injection/6102
+
+                string queryInsert = "INSERT INTO GENERO (nomeGenero) VALUES (@nomeGenero)";
 
                 con.Open();
 
                 using (SqlCommand cmd = new SqlCommand(queryInsert, con))
                 {
+                    cmd.Parameters.AddWithValue("@nomeGenero", novoGenero.nomeGenero);
+
                     cmd.ExecuteNonQuery();
                 }
             }
@@ -58,7 +72,19 @@ namespace SENAI_Filmes_WebAPI.Repositories
 
         public void Deletar(int idGenero)
         {
-            throw new NotImplementedException();
+            using (SqlConnection con = new SqlConnection(stringConexao))
+            {
+                string queryDelete = "DELETE FROM GENERO WHERE idGenero = @id";
+
+                using (SqlCommand cmd = new SqlCommand(queryDelete, con))
+                {
+                    cmd.Parameters.AddWithValue("@id", idGenero);
+
+                    con.Open();
+
+                    cmd.ExecuteNonQuery();
+                }
+            }
         }
 
         /// <summary>
