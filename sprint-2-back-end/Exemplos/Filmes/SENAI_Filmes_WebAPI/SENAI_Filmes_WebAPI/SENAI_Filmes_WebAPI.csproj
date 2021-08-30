@@ -5,10 +5,6 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <Compile Include="C:\Users\livia\OneDrive\Documents\Lívia\Lívia Escola\SENAI\sprint-2-back-end\Exemplos\Filmes\SENAI_Filmes_WebAPI\SENAI_Filmes_WebAPI.1.sln" Link="SENAI_Filmes_WebAPI.1.sln" />
-  </ItemGroup>
-
-  <ItemGroup>
     <PackageReference Include="System.Data.SqlClient" Version="4.8.2" />
   </ItemGroup>
 
