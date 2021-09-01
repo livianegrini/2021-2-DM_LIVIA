@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "OPXYxzpQJEyA+RjTFbEJ/HLo+qNp9onduBtCzeV4/eZa8F+mviPiqUp90dQWGCNMCtsd1UbQ/1ydMLajXSoOfw==",
+  "dgSpecHash": "iYTp6+NiX6spAu73reXJIGYWFtZveE5aIKcbOZ7Be1lefYGafl/RrI7CK4E5wreD+CcjcWFARQoSUQ68i3M8aQ==",
   "success": true,
-  "projectFilePath": "C:\\Users\\fic\\Documents\\2021-2-DM_LIVIA\\sprint-2-back-end\\Exemplos\\Filmes\\SENAI_Filmes_WebAPI\\SENAI_Filmes_WebAPI\\SENAI_Filmes_WebAPI.csproj",
+  "projectFilePath": "C:\\Users\\fic\\Documents\\2021-2-DM_LIVIA\\sprint-2-back-end\\Rental_LiviaNegrini\\Senai.Rental.WebApi\\Senai.Rental.WebApi\\Senai.Rental.WebApi\\Senai.Rental.WebApi.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\fic\\.nuget\\packages\\microsoft.netcore.platforms\\3.1.0\\microsoft.netcore.platforms.3.1.0.nupkg.sha512",
     "C:\\Users\\fic\\.nuget\\packages\\microsoft.win32.registry\\4.7.0\\microsoft.win32.registry.4.7.0.nupkg.sha512",

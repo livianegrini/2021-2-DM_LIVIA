@@ -459,11 +459,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\fic\\Documents\\2021-2-DM_LIVIA\\sprint-2-back-end\\Exemplos\\Filmes\\SENAI_Filmes_WebAPI\\SENAI_Filmes_WebAPI\\SENAI_Filmes_WebAPI.csproj",
-      "projectName": "SENAI_Filmes_WebAPI",
-      "projectPath": "C:\\Users\\fic\\Documents\\2021-2-DM_LIVIA\\sprint-2-back-end\\Exemplos\\Filmes\\SENAI_Filmes_WebAPI\\SENAI_Filmes_WebAPI\\SENAI_Filmes_WebAPI.csproj",
+      "projectUniqueName": "C:\\Users\\fic\\Documents\\2021-2-DM_LIVIA\\sprint-2-back-end\\Rental_LiviaNegrini\\Senai.Rental.WebApi\\Senai.Rental.WebApi\\Senai.Rental.WebApi\\Senai.Rental.WebApi.csproj",
+      "projectName": "Senai.Rental.WebApi",
+      "projectPath": "C:\\Users\\fic\\Documents\\2021-2-DM_LIVIA\\sprint-2-back-end\\Rental_LiviaNegrini\\Senai.Rental.WebApi\\Senai.Rental.WebApi\\Senai.Rental.WebApi\\Senai.Rental.WebApi.csproj",
       "packagesPath": "C:\\Users\\fic\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\fic\\Documents\\2021-2-DM_LIVIA\\sprint-2-back-end\\Exemplos\\Filmes\\SENAI_Filmes_WebAPI\\SENAI_Filmes_WebAPI\\obj\\",
+      "outputPath": "C:\\Users\\fic\\Documents\\2021-2-DM_LIVIA\\sprint-2-back-end\\Rental_LiviaNegrini\\Senai.Rental.WebApi\\Senai.Rental.WebApi\\Senai.Rental.WebApi\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\fic\\AppData\\Roaming\\NuGet\\NuGet.Config",
