@@ -34,7 +34,10 @@ namespace SENAI_Filmes_WebAPI.Repositories
 
         public GeneroDomain BuscarPorId(int idGenero)
         {
-            throw new NotImplementedException();
+            using (SqlConnection con = new SqlConnection(stringConexao))
+            {
+
+            }
         }
 
         /// <summary>

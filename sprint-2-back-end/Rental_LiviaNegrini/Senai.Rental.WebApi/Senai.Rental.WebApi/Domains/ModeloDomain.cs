@@ -5,6 +5,9 @@ using System.Threading.Tasks;
 
 namespace Senai.Rental.WebApi.Domains
 {
+    /// <summary>
+    /// Classe representa a entidade (tabela) Modelo
+    /// </summary>
     public class ModeloDomain 
     {
         public int IdModelo { get; set; }

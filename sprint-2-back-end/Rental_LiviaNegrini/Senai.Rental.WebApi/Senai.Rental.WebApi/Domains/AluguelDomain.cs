@@ -5,6 +5,9 @@ using System.Threading.Tasks;
 
 namespace Senai.Rental.WebApi.Domains
 {
+    /// <summary>
+    /// Classe representa a entidade (tabela) Aluguel
+    /// </summary>
     public class AluguelDomain
     {
         public int IdAluguel { get; set; }
