@@ -18,7 +18,7 @@ namespace Senai.Rental.WebApi.Domains
 
         public int Preco { get; set; }
 
-        public DateTime  DataAluguel  { get; set; }
+        public DateTime  Data  { get; set; }
 
         public ClienteDomain Cliente { get; set; }
 
