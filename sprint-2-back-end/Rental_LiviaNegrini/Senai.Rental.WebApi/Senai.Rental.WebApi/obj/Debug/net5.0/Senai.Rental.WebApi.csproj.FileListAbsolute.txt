@@ -1,0 +1,6 @@
+C:\Users\livia\OneDrive\Documents\Lívia\Lívia Escola\SENAI\2021-2S-DM_LIVIA\sprint-2-back-end\Rental_LiviaNegrini\Senai.Rental.WebApi\Senai.Rental.WebApi\obj\Debug\net5.0\Senai.Rental.WebApi.csproj.AssemblyReference.cache
+C:\Users\livia\OneDrive\Documents\Lívia\Lívia Escola\SENAI\2021-2S-DM_LIVIA\sprint-2-back-end\Rental_LiviaNegrini\Senai.Rental.WebApi\Senai.Rental.WebApi\obj\Debug\net5.0\Senai.Rental.WebApi.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\livia\OneDrive\Documents\Lívia\Lívia Escola\SENAI\2021-2S-DM_LIVIA\sprint-2-back-end\Rental_LiviaNegrini\Senai.Rental.WebApi\Senai.Rental.WebApi\obj\Debug\net5.0\Senai.Rental.WebApi.AssemblyInfoInputs.cache
+C:\Users\livia\OneDrive\Documents\Lívia\Lívia Escola\SENAI\2021-2S-DM_LIVIA\sprint-2-back-end\Rental_LiviaNegrini\Senai.Rental.WebApi\Senai.Rental.WebApi\obj\Debug\net5.0\Senai.Rental.WebApi.AssemblyInfo.cs
+C:\Users\livia\OneDrive\Documents\Lívia\Lívia Escola\SENAI\2021-2S-DM_LIVIA\sprint-2-back-end\Rental_LiviaNegrini\Senai.Rental.WebApi\Senai.Rental.WebApi\obj\Debug\net5.0\Senai.Rental.WebApi.csproj.CoreCompileInputs.cache
+C:\Users\livia\OneDrive\Documents\Lívia\Lívia Escola\SENAI\2021-2S-DM_LIVIA\sprint-2-back-end\Rental_LiviaNegrini\Senai.Rental.WebApi\Senai.Rental.WebApi\obj\Debug\net5.0\Senai.Rental.WebApi.MvcApplicationPartsAssemblyInfo.cache
