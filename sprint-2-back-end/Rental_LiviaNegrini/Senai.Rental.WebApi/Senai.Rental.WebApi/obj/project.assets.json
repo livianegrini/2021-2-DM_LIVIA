@@ -459,11 +459,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\livia\\OneDrive\\Documents\\Lívia\\Lívia Escola\\SENAI\\2021-2S-DM_LIVIA\\sprint-2-back-end\\Rental_LiviaNegrini\\Senai.Rental.WebApi\\Senai.Rental.WebApi\\Senai.Rental.WebApi.csproj",
+      "projectUniqueName": "C:\\Users\\livia\\OneDrive\\Documents\\Lívia\\Lívia Escola\\SENAI\\2021-2-DM_LIVIA\\sprint-2-back-end\\Rental_LiviaNegrini\\Senai.Rental.WebApi\\Senai.Rental.WebApi\\Senai.Rental.WebApi.csproj",
       "projectName": "Senai.Rental.WebApi",
-      "projectPath": "C:\\Users\\livia\\OneDrive\\Documents\\Lívia\\Lívia Escola\\SENAI\\2021-2S-DM_LIVIA\\sprint-2-back-end\\Rental_LiviaNegrini\\Senai.Rental.WebApi\\Senai.Rental.WebApi\\Senai.Rental.WebApi.csproj",
+      "projectPath": "C:\\Users\\livia\\OneDrive\\Documents\\Lívia\\Lívia Escola\\SENAI\\2021-2-DM_LIVIA\\sprint-2-back-end\\Rental_LiviaNegrini\\Senai.Rental.WebApi\\Senai.Rental.WebApi\\Senai.Rental.WebApi.csproj",
       "packagesPath": "C:\\Users\\livia\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\livia\\OneDrive\\Documents\\Lívia\\Lívia Escola\\SENAI\\2021-2S-DM_LIVIA\\sprint-2-back-end\\Rental_LiviaNegrini\\Senai.Rental.WebApi\\Senai.Rental.WebApi\\obj\\",
+      "outputPath": "C:\\Users\\livia\\OneDrive\\Documents\\Lívia\\Lívia Escola\\SENAI\\2021-2-DM_LIVIA\\sprint-2-back-end\\Rental_LiviaNegrini\\Senai.Rental.WebApi\\Senai.Rental.WebApi\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\livia\\AppData\\Roaming\\NuGet\\NuGet.Config",

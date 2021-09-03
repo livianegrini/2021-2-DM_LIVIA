@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "g6pjk1Op2sIz2IedbrWzjknXX3+GMXVkvO2QHulGWNh8MyrCNkO4dWoa7yleeFmg+QP5OMPmu0mspY8PbCVWpA==",
+  "dgSpecHash": "0G5sIfQT+yir7bJNHiawJIXLl74xr9MrzHuqj8O0c3tFUGohhdfA4Z3xo0V/681bgbL0zeXlE0IAZ900DKeHQw==",
   "success": true,
-  "projectFilePath": "C:\\Users\\livia\\OneDrive\\Documents\\Lívia\\Lívia Escola\\SENAI\\2021-2S-DM_LIVIA\\sprint-2-back-end\\Rental_LiviaNegrini\\Senai.Rental.WebApi\\Senai.Rental.WebApi\\Senai.Rental.WebApi.csproj",
+  "projectFilePath": "C:\\Users\\livia\\OneDrive\\Documents\\Lívia\\Lívia Escola\\SENAI\\2021-2-DM_LIVIA\\sprint-2-back-end\\Rental_LiviaNegrini\\Senai.Rental.WebApi\\Senai.Rental.WebApi\\Senai.Rental.WebApi.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\livia\\.nuget\\packages\\microsoft.netcore.platforms\\3.1.0\\microsoft.netcore.platforms.3.1.0.nupkg.sha512",
     "C:\\Users\\livia\\.nuget\\packages\\microsoft.win32.registry\\4.7.0\\microsoft.win32.registry.4.7.0.nupkg.sha512",

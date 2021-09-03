@@ -30,5 +30,18 @@ namespace Senai.Rental.WebApi.Controllers
 
             return Ok(ListaClientes);
         }
+
+        [HttpGet("{Id}")]
+        public IActionResult GetById(int Id)
+        {
+            ClienteDomain ClienteBuscado = _ClienteRepository.BuscarPorId(Id);
+
+            if (ClienteBuscado == null)
+            {
+                return NotFound("Nenhum cliente encontrado!");
+            }
+
+            return Ok(ClienteBuscado);
+        }
     }
 }

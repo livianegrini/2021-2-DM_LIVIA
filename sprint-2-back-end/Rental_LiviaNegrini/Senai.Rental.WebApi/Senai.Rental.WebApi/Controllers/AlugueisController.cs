@@ -30,5 +30,18 @@ namespace Senai.Rental.WebApi.Controllers
 
             return Ok(ListaAlugueis);
         }
+
+        [HttpGet("{Id}")]
+        public IActionResult GetById(int Id)
+        {
+            AluguelDomain AluguelBuscado = _AluguelRepository.BuscarPorId(Id);
+
+            if (AluguelBuscado == null)
+            {
+                return NotFound("Nenhum aluguel encontrado!");
+            }
+
+            return Ok(AluguelBuscado);
+        }
     }
 }

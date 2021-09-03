@@ -30,5 +30,18 @@ namespace Senai.Rental.WebApi.Controllers
 
             return Ok(ListaVeiculos);
         }
+
+        [HttpGet("{Id}")]
+        public IActionResult GetById(int Id)
+        {
+            VeiculoDomain VeiculoBuscado = _VeiculoRepository.BuscarPorId(Id);
+
+            if (VeiculoBuscado == null)
+            {
+                return NotFound("Nenhum veiculo encontrado!");
+            }
+
+            return Ok(VeiculoBuscado);
+        }
     }
 }
