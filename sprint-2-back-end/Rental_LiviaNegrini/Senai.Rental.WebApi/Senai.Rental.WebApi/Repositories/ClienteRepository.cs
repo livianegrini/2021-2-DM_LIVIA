@@ -17,7 +17,7 @@ namespace Senai.Rental.WebApi.Repositories
         //  string de conexão com o banco de dados
         /// </summary>
         private string StringConexao = "Data Source=DESKTOP-9F56DG6\\SQLEXPRESS; initial catalog=M_Rental_LIVIA; integrated security=true; ";
-        public void Atualizar(int IdCliente, ClienteDomain ClienteAtualizado)
+        public void AtualizarUrl(int IdCliente, ClienteDomain ClienteAtualizado)
         {
             using (SqlConnection Con = new SqlConnection(StringConexao))
             {

@@ -21,7 +21,7 @@ namespace Senai.Rental.WebApi.Interfaces
         void Deletar(int IdVeiculo);
 
         //Atualizar
-        void Atualizar(int IdVeiculo, VeiculoDomain VeiculoAtualizado);
+        void AtualizarUrl(int IdVeiculo, VeiculoDomain VeiculoAtualizado);
 
     }
 }

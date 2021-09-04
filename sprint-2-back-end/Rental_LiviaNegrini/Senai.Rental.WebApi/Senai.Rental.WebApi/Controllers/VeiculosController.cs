@@ -43,5 +43,50 @@ namespace Senai.Rental.WebApi.Controllers
 
             return Ok(VeiculoBuscado);
         }
+        //
+
+        [HttpPost]
+        public IActionResult Post(VeiculoDomain NovoVeiculo)
+        {
+            _VeiculoRepository.Cadastrar(NovoVeiculo);
+
+            return StatusCode(201);
+        }
+        //
+
+        [HttpPut("{Id}")]
+        public IActionResult Put(int Id, VeiculoDomain VeiculoAtualizado)
+        {
+            VeiculoDomain VeiculoBuscado = _VeiculoRepository.BuscarPorId(Id);
+
+            if (VeiculoBuscado == null)
+            {
+                return NotFound
+                    (new
+                    {
+                        mensagem = "Veiculo não encontrado!",
+                        erro = true
+                    });
+            }
+
+            try
+            {
+                _VeiculoRepository.AtualizarUrl(Id, VeiculoAtualizado);
+
+                return NoContent();
+            }
+            catch (Exception Erro)
+            {
+                return BadRequest(Erro);
+            }
+        }
+
+        [HttpDelete("{Id}")]
+        public IActionResult Delete(int Id)
+        {
+            _VeiculoRepository.Deletar(Id);
+
+            return StatusCode(204);
+        }
     }
 }

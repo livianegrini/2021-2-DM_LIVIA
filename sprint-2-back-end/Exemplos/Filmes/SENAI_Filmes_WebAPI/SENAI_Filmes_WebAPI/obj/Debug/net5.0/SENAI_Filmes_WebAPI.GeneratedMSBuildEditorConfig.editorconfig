@@ -7,4 +7,4 @@ build_property.PublishSingleFile =
 build_property.IncludeAllContentForSelfExtract = 
 build_property._SupportedPlatformList = Android,iOS,Linux,macOS,Windows
 build_property.RootNamespace = SENAI_Filmes_WebAPI
-build_property.ProjectDir = C:\Users\livia\OneDrive\Documents\Lívia\Lívia Escola\SENAI\2021-2S-DM_LIVIA\sprint-2-back-end\Exemplos\Filmes\SENAI_Filmes_WebAPI\SENAI_Filmes_WebAPI\
+build_property.ProjectDir = C:\Users\livia\OneDrive\Documents\Lívia\Lívia Escola\SENAI\2021-2-DM_LIVIA\sprint-2-back-end\Exemplos\Filmes\SENAI_Filmes_WebAPI\SENAI_Filmes_WebAPI\

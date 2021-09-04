@@ -17,7 +17,7 @@ namespace Senai.Rental.WebApi.Repositories
         //  string de conexão com o banco de dados
         /// </summary>
         private string StringConexao = "Data Source=DESKTOP-9F56DG6\\SQLEXPRESS; initial catalog=M_Rental_LIVIA; integrated security=true; ";
-        public void Atualizar(int IdVeiculo, VeiculoDomain VeiculoAtualizado)
+        public void AtualizarUrl(int IdVeiculo, VeiculoDomain VeiculoAtualizado)
         {
             using (SqlConnection Con = new SqlConnection(StringConexao))
             {
@@ -119,7 +119,7 @@ namespace Senai.Rental.WebApi.Repositories
 
             using (SqlConnection Con = new SqlConnection(StringConexao))
             {
-                string QuerySelectAll = "SELECT IdVeiculo, IdEmpresa, Placa, IdModelo FROM Veiculo LEFT JOIN Empresa ON Veiculo.IdEmpresa = Empresa.IdEmpresa LEFT JOIN Modelo ON Veiculo.IdModelo = Modelo.IdModelo";
+                string QuerySelectAll = "SELECT IdVeiculo, Veiculo.IdEmpresa, Placa, Veiculo.IdModelo FROM Veiculo LEFT JOIN Empresa ON Veiculo.IdEmpresa = Empresa.IdEmpresa LEFT JOIN Modelo ON Veiculo.IdModelo = Modelo.IdModelo";
 
                 Con.Open();
 
@@ -134,9 +134,9 @@ namespace Senai.Rental.WebApi.Repositories
                         VeiculoDomain Veiculo = new VeiculoDomain()
                         {
                             IdVeiculo = Convert.ToInt32(Rdr[0]),
-                            Empresa = new EmpresaDomain() { IdEmpresa = Convert.ToInt32(Rdr[1]) },
+                            Empresa = new EmpresaDomain() {IdEmpresa = Convert.ToInt32(Rdr[1]) },
                             Placa = Rdr[2].ToString(),
-                            Modelo = new ModeloDomain() { IdModelo = Convert.ToInt32(Rdr[3]) }
+                            Modelo = new ModeloDomain() {IdModelo = Convert.ToInt32(Rdr[3]) }
                         };
 
                         ListaVeiculos.Add(Veiculo);

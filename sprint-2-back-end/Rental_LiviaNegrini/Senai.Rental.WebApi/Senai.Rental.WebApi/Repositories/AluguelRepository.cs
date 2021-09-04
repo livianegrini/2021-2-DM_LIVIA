@@ -16,9 +16,9 @@ namespace Senai.Rental.WebApi.Repositories
         /// <summary>
         //  string de conexão com o banco de dados
         /// </summary>
-        private string StringConexao = "Data Source=DESKTOP-9F56DG6\\SQLEXPRESS; initial catalog=M_Rental_LIVIA; integrated security=true; ";
+        private string StringConexao = "Data Source=DESKTOP-9F56DG6\\SQLEXPRESS; initial catalog=M_Rental_LIVIA; integrated security=true;";
 
-        public void Atualizar(int IdAluguel, AluguelDomain AluguelAtualizado)
+        public void AtualizarUrl(int IdAluguel, AluguelDomain AluguelAtualizado)
         {
                 using (SqlConnection Con = new SqlConnection(StringConexao))
                 {
@@ -80,8 +80,6 @@ namespace Senai.Rental.WebApi.Repositories
             {
                 string QueryInsert = "INSERT INTO Aluguel(IdCliente,IdVeiculo,Preco,Data) VALUES (@IdCliente,@IdVeiculo,@Preco,@Data)";
 
-                //Se tiver erro, pode ser DataAluguel != [Data]
-
 
                 using(SqlCommand Cmd = new SqlCommand(QueryInsert, Con))
                 {
@@ -120,7 +118,7 @@ namespace Senai.Rental.WebApi.Repositories
 
             using (SqlConnection Con = new SqlConnection(StringConexao))
             {
-                string QuerySelectAll = "SELECT IdAluguel, IdCliente, IdVeiculo, Preco, Data FROM Aluguel LEFT JOIN Cliente ON Aluguel.IdCliente = Cliente.IdCliente LEFT JOIN Veiculo ON Aluguel.IdVeiculo = Veiculo.IdVeiculo";
+                string QuerySelectAll = "SELECT IdAluguel, Aluguel.IdCliente, Aluguel.IdVeiculo, Preco, Data FROM Aluguel LEFT JOIN Cliente ON Aluguel.IdCliente = Cliente.IdCliente LEFT JOIN Veiculo ON Aluguel.IdVeiculo = Veiculo.IdVeiculo";
 
                 Con.Open();
 

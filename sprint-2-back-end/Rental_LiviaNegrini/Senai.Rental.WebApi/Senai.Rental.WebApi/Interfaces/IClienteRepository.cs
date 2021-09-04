@@ -21,7 +21,7 @@ namespace Senai.Rental.WebApi.Interfaces
         void Deletar(int IdCliente);
 
         //Atualizar
-        void Atualizar(int IdCliente, ClienteDomain ClienteAtualizado);
+        void AtualizarUrl(int IdCliente, ClienteDomain ClienteAtualizado);
 
     }
 }
