@@ -31,6 +31,8 @@ VALUES (3,2,250,'30/05/2021'),(1,1,300,'07/07/2021'),(2,3,200,'10/08/2021')
 
 SELECT * FROM Aluguel
 
+INSERT INTO Aluguel(IdCliente,IdVeiculo,Preco,Data) VALUES (1,null,250,'30/05/2021')
+
 
 
 

@@ -16,7 +16,7 @@ namespace Senai.Rental.WebApi.Domains
 
         public string SobrenomeCliente { get; set; }
 
-        public int CPF { get; set; }
+        public string CPF { get; set; }
 
         public DateTime DataNascimento { get; set; }
     }

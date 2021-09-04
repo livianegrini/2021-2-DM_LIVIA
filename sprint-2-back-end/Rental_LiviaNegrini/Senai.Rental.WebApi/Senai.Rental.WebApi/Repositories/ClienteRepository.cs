@@ -61,7 +61,7 @@ namespace Senai.Rental.WebApi.Repositories
                             IdCliente = Convert.ToInt32(Rdr[0]),
                             NomeCliente = Rdr[1].ToString(),
                             SobrenomeCliente = Rdr[2].ToString(),
-                            CPF = Convert.ToInt32(Rdr[3]),
+                            CPF = Rdr[3].ToString(),
                             DataNascimento = Convert.ToDateTime(Rdr[4])
                         };
 
@@ -135,7 +135,7 @@ namespace Senai.Rental.WebApi.Repositories
                             IdCliente = Convert.ToInt32(Rdr[0]),
                             NomeCliente = Rdr[1].ToString(),
                             SobrenomeCliente = Rdr[2].ToString(),
-                            CPF = Convert.ToInt32(Rdr[3]),
+                            CPF = Rdr[3].ToString(),
                             DataNascimento = Convert.ToDateTime(Rdr[4])
                         };
 

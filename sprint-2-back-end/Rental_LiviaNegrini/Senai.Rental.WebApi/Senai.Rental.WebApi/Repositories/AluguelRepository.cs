@@ -43,15 +43,16 @@ namespace Senai.Rental.WebApi.Repositories
         {
             using (SqlConnection Con = new SqlConnection(StringConexao))
             {
-                string QuerySelectById = "SELECT IdAluguel, IdCliente, IdVeiculo, Preco, Data FROM Aluguel WHERE IdAluguel = @IdAluguel";
+                string QuerySelectById = "SELECT IdAluguel, Preco, Data FROM Aluguel WHERE IdAluguel = @IdAluguel";
 
-                Con.Open();
 
                 SqlDataReader Rdr;
 
                 using (SqlCommand Cmd = new SqlCommand(QuerySelectById, Con))
                 {
                     Cmd.Parameters.AddWithValue("@IdAluguel", IdAluguel);
+
+                    Con.Open();
 
                     Rdr = Cmd.ExecuteReader();
 

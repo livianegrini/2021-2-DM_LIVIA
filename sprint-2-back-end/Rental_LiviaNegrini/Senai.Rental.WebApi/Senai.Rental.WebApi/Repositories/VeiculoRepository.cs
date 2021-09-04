@@ -41,15 +41,15 @@ namespace Senai.Rental.WebApi.Repositories
         {
             using (SqlConnection Con = new SqlConnection(StringConexao))
             {
-                string QuerySelectById = "SELECT IdVeiculo, IdEmpresa, Placa, IdModelo FROM Veiculo LEFT JOIN Empresa ON Veiculo.IdEmpresa = Empresa.IdEmpresa LEFT JOIN Modelo ON Veiculo.IdModelo = Modelo.IdModelo WHERE IdVeiculo = @IdVeiculo";
-
-                Con.Open();
+                string QuerySelectById = "SELECT IdVeiculo, Veiculo.IdEmpresa, Placa, Veiculo.IdModelo FROM Veiculo LEFT JOIN Empresa ON Veiculo.IdEmpresa = Empresa.IdEmpresa LEFT JOIN Modelo ON Veiculo.IdModelo = Modelo.IdModelo WHERE IdVeiculo = @IdVeiculo";
 
                 SqlDataReader Rdr;
 
                 using (SqlCommand Cmd = new SqlCommand(QuerySelectById, Con))
                 {
                     Cmd.Parameters.AddWithValue("@IdVeiculo", IdVeiculo);
+
+                    Con.Open();
 
                     Rdr = Cmd.ExecuteReader();
 
