@@ -95,20 +95,22 @@ namespace Senai.Rental.WebApi.Repositories
 
         }
 
+
         public void Deletar(int IdCliente)
         {
             using (SqlConnection Con = new SqlConnection(StringConexao))
             {
-                string QueryDelete = "DELETE FROM Cliente WHERE IdCliente = @id";
+                string QueryDelete = "DELETE FROM Cliente WHERE IdCliente = @Id";
 
                 using (SqlCommand Cmd = new SqlCommand(QueryDelete, Con))
                 {
-                    Cmd.Parameters.AddWithValue("@id", IdCliente);
+                    Cmd.Parameters.AddWithValue("@Id", IdCliente);
 
                     Con.Open();
 
                     Cmd.ExecuteNonQuery();
                 }
+                
             }
         }
 
