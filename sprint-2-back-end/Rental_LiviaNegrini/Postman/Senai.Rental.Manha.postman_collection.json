@@ -64,7 +64,7 @@
 						"method": "DELETE",
 						"header": [],
 						"url": {
-							"raw": "http://localhost:5000/api/clientes/1",
+							"raw": "http://localhost:5000/api/clientes/10",
 							"protocol": "http",
 							"host": [
 								"localhost"
@@ -73,7 +73,7 @@
 							"path": [
 								"api",
 								"clientes",
-								"1"
+								"10"
 							]
 						}
 					},
@@ -94,6 +94,36 @@
 							"path": [
 								"api",
 								"clientes"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Cliente.Atualizar",
+					"request": {
+						"method": "PUT",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"NomeCliente\" : \"Wesley\",\r\n    \"SobrenomeCliente\" : \"Santos\",\r\n    \"CPF\" : \"13345612223\",\r\n    \"DataNascimento\" : \"2003-06-22\"\r\n\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost:5000/api/clientes/7",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "5000",
+							"path": [
+								"api",
+								"clientes",
+								"7"
 							]
 						}
 					},
@@ -194,6 +224,36 @@
 						}
 					},
 					"response": []
+				},
+				{
+					"name": "Aluguel.Atuallizar",
+					"request": {
+						"method": "PUT",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"IdCliente\" : 5,\r\n    \"IdVeiculo\" : 3,\r\n    \"Preco\" : 800,\r\n    \"Data\" : \"2020-06-06\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost:5000/api/alugueis/10",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "5000",
+							"path": [
+								"api",
+								"alugueis",
+								"10"
+							]
+						}
+					},
+					"response": []
 				}
 			]
 		},
@@ -207,7 +267,7 @@
 						"header": [],
 						"body": {
 							"mode": "raw",
-							"raw": "{\r\n     \"IdEmpresa\" : 1,\r\n    \"Placa\" : \"444\",\r\n    \"IdModelo\" : 2\r\n}",
+							"raw": "{\r\n    \"IdEmpresa\" : 1,\r\n    \"Placa\" : \"444\",\r\n    \"IdModelo\" : 2\r\n}",
 							"options": {
 								"raw": {
 									"language": "json"
@@ -286,6 +346,36 @@
 							"path": [
 								"api",
 								"veiculos"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Veiculo.Atualizar",
+					"request": {
+						"method": "PUT",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"IdEmpresa\" : 1,\r\n    \"Placa\" : \"222\",\r\n    \"IdModelo\" : 2\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost:5000/api/veiculos/7",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "5000",
+							"path": [
+								"api",
+								"veiculos",
+								"7"
 							]
 						}
 					},

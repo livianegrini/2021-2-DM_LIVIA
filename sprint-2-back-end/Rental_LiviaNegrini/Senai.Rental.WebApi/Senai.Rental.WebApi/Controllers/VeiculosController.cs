@@ -86,7 +86,7 @@ namespace Senai.Rental.WebApi.Controllers
         {
             _VeiculoRepository.Deletar(Id);
 
-            return StatusCode(204);
+            return StatusCode(201);
         }
     }
 }

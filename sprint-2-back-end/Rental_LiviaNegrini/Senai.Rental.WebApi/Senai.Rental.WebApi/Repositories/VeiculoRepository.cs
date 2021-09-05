@@ -21,7 +21,7 @@ namespace Senai.Rental.WebApi.Repositories
         {
             using (SqlConnection Con = new SqlConnection(StringConexao))
             {
-                string QueryUpdate = "UPDATE Veiculo SET IdEmpresa = @IdEmpresa Placa = @Placa IdModelo= @IdModelo WHERE IdVeiculo = @IdVeiculoAtualizado";
+                string QueryUpdate = "UPDATE Veiculo SET IdEmpresa = @IdEmpresa, Placa = @Placa, IdModelo= @IdModelo WHERE IdVeiculo = @IdVeiculoAtualizado";
 
                 using (SqlCommand Cmd = new SqlCommand(QueryUpdate, Con))
                 {

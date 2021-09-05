@@ -84,7 +84,7 @@ namespace Senai.Rental.WebApi.Controllers
         {
             _AluguelRepository.Deletar(Id);
 
-            return StatusCode(204);
+            return StatusCode(201);
         }
 
     }

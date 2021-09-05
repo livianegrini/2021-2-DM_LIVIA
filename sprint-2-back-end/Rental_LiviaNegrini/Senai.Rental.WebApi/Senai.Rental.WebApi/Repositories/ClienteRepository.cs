@@ -21,7 +21,7 @@ namespace Senai.Rental.WebApi.Repositories
         {
             using (SqlConnection Con = new SqlConnection(StringConexao))
             {
-                string QueryUpdate = "UPDATE Cliente SET NomeCliente = @NomeCliente SobrenomeCliente = @SobrenomeCliente CPF= @CPF DataNascimento = @DataNascimento  WHERE IdCliente = @IdClienteAtualizado";
+                string QueryUpdate = "UPDATE Cliente SET NomeCliente = @NomeCliente, SobrenomeCliente = @SobrenomeCliente, CPF= @CPF, DataNascimento = @DataNascimento  WHERE IdCliente = @IdClienteAtualizado";
 
                 using (SqlCommand Cmd = new SqlCommand(QueryUpdate, Con))
                 {
@@ -37,6 +37,7 @@ namespace Senai.Rental.WebApi.Repositories
                 }
             }
         }
+
 
         public ClienteDomain BuscarPorId(int IdCliente)
         {
