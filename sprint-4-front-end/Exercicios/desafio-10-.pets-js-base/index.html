@@ -58,24 +58,74 @@
             }];
 
             // 1.	Liste somente os animais cujo tipo seja igual a gato;
-            //
+
+                    console.log('1.	Lista somente os animais cujo tipo seja igual a gato.');
+
+                    var TipoGato = pets.filter((gatos) =>{
+
+                        return gatos.tipoPet === 'gato'
+                    });
+                    console.log(TipoGato);
 
             // 2.	Liste somente os animais cuja idade seja superior a 7;
-            //
+
+                    console.log('2.	Lista somente os animais cuja idade seja superior a 7.');
+
+                    var IdadeMaiorQue7 = pets.filter((animais) => {
+
+                        return animais.idade > 7;
+                    });
+
+                    console.log(IdadeMaiorQue7);
 
             // 3.	Some a idade de todos os pets;
-            //
+
+                    console.log('3.	Soma a idade de todos os pets.');
+
+                    var IdadePets = pets.map(p => p.idade).reduce(function(total, atual){
+
+                        return total + atual;
+                    }, 0);
+
+                    console.log(IdadePets)
             
             // 4.	Traga somente os nomes dos pets;
-            //
+            
+                    console.log('4.	Traz somente os nomes dos pets.');
+
+                    var NomePets = pets.map(n => {
+
+                        var ListarNomes = {};
+
+                        ListarNomes.nome = n.nome;
+
+                        return ListarNomes;
+                    });
+
+                    console.log(NomePets);
 
             // 5.	Adicione mais um pet chamado doguinho, cuja idade é igual a 13 e o tipo seja cachorro;
-            console.log('-----------5-----------');
-            //
+
+                    console.log('5.	Adiciona mais um pet chamado doguinho, cuja idade é igual a 13 e o tipo seja cachorro.');
+
+                    var doguinho = {
+                        nome: "doguinho",
+                        idade: 13,
+                        tipoPet: "cachorro"
+                    };
+
+                    pets.push(doguinho);
+                    console.log(doguinho);
+            
 
             // 6. Mostre a quantidade de cachorros que possuem na lista
-            //
+                    
+                console.log('6. Mostra a quantidade de cachorros que possuem na lista.');
 
+                var QuantidadeCachorros = pets.filter((pet) => pet.tipoPet === 'cachorro');
+
+                console.log(QuantidadeCachorros.length);
+                console.log(QuantidadeCachorros);
     </script>
 
 </body>

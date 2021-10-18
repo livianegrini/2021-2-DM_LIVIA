@@ -74,7 +74,7 @@
 
         // 2.	Traga somente os nomes dos times;
                 
-                console.log('2.	Traz somente os nomes dos times.'); 
+                console.log('2. Traz somente os nomes dos times.'); 
                 let NomesTimes = times.map( t => {
 
                     var ListaNomes = {}; 
@@ -100,13 +100,45 @@
                     golscontra: 36
                 }
 
+                times.push(Wolves);
                 console.log(Wolves);
 
         // 4. Mostre o nome e a quantidade de jogos(vitorias, empates e derrotas), quantidade de vitorias, empates e derrotas de um time;
-              console.log('4. Mostra o nome e a quantidade de jogos(vitorias, empates e derrotas), quantidade de vitorias, empates e derrotas de um time.'); 
+              console.log('4. Mostra o nome e a quantidade de jogos(vitorias, empates e derrotas), quantidade de vitorias, empates e derrotas de um time.');
+
+              let NomeQuantidade = times.map(t => {
+
+                 let NovaLista = {};
+
+                 NovaLista.nome = t.nome;
+                 NovaLista.QuantidadeJogos = t.vitorias + t.empates + t.derrotas;
+                 NovaLista.QuantidadeVitorias = t.vitorias;
+                 NovaLista.QuantidadeEmpates = t.empates;
+                 NovaLista.QuantidadeDerrotas = t.derrotas;
+
+                 //saber como puxar so de 1
+
+                 return (NovaLista);
+
+              });
+
+              console.log(NomeQuantidade);
 
         // 5.	Informe a quantidade de jogos do campeonato;
                 console.log('5. Informa a quantidade de jogos do campeonato.'); 
+
+                let QuantidadeJogos = times.map(t => {
+
+                    let Jogos = {};
+
+                    Jogos.QuantidadeJogos = t.vitorias + t.empates + t.derrotas;
+
+                    return Jogos;
+                });
+
+                let JogosQnt = QuantidadeJogos.reduce((total, atual) => total + atual.QuantidadeJogos,0);
+
+                console.log(JogosQnt);
     </script>
 
 </body>
