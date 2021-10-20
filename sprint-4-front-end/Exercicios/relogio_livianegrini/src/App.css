@@ -36,3 +36,23 @@
     transform: rotate(360deg);
   }
 }
+
+.Botoes{
+  justify-content: space-evenly;
+  margin: 20px;
+
+}
+
+.BotaoPausar {
+  color: white;
+  font-weight: 600;
+  height: 25px;
+  background-color: red;
+}
+
+.BotaoRetomar{
+  color: white;
+  font-weight: 600;
+  height: 25px;
+  background-color: green;
+}
